@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(53, 246, 150);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 15px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 60px;
+    line-height: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    color: white;
+    opacity: 1;
+}
+
+a:hover{
+    cursor: pointer;
+    color: rgb(1, 104, 1);
+    opacity: 0.7;
+}
+
+#inscreva{
+    color: rgb(1, 104, 1);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+img{
+    margin: 20px;
+}
+
+#conta{
+    border: 2px solid;
+    padding: 10px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#conta:hover{
+    background-color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 75%;
+}
+
+input{
+    margin-top: 10px;
+    height: 20px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px
+}
+
+#button{
+    background-color: rgb(47, 178, 47);
+    color: white;
+    border-color: rgb(47, 178, 47);
+    width: 50%;
+    height: 50px;
+    font-weight: bold;
+}
+
+#button:hover{
+    cursor: pointer;
+}
